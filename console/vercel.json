@@ -1,4 +1,7 @@
 {
+  "buildCommand": "npx ember build --environment=production",
+  "outputDirectory": "dist",
+  "installCommand": "npm install --legacy-peer-deps",
   "cleanUrls": false,
   "routes": [
     { "handle": "filesystem" },
