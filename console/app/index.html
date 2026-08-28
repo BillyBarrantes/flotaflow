@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <title>Fleetbase Console</title>
+    <title>FlotaFlow Console</title>
 
     {{content-for "head"}}
 
@@ -32,6 +32,13 @@
     </div>
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/@fleetbase/console.js"></script>
+    <script>
+      (function () {
+        var App = require('@fleetbase/console/app').default;
+        var config = require('@fleetbase/console/config/environment').default;
+        window.flotaflowApp = App.create(config.APP);
+      })();
+    </script>
 
     {{content-for "body-footer"}}
   </body>
