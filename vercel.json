@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd console && npx ember build --environment=production",
+  "buildCommand": "cd console && pnpm exec ember build --environment=production",
   "outputDirectory": "console/dist",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "cleanUrls": false,
