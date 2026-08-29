@@ -1,7 +1,7 @@
 {
-  "buildCommand": "cd console && npx --no-install ember build --environment=production",
+  "buildCommand": "cd console && npm run build",
   "outputDirectory": "console/dist",
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "installCommand": "cd console && npm install --legacy-peer-deps",
   "cleanUrls": false,
   "routes": [
     { "handle": "filesystem" },
