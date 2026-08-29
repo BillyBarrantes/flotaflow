@@ -1,7 +1,7 @@
 {
-  "buildCommand": "pnpm --filter @flotaflow/console run build",
+  "buildCommand": "cd console && ./node_modules/.bin/ember build --environment=production",
   "outputDirectory": "console/dist",
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "installCommand": "pnpm --filter @flotaflow/console install --no-frozen-lockfile",
   "cleanUrls": false,
   "routes": [
     { "handle": "filesystem" },
