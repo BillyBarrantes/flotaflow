@@ -1,7 +1,7 @@
 {
   "buildCommand": "cd console && pnpm run build",
   "outputDirectory": "console/dist",
-  "installCommand": "cd console && pnpm install --no-frozen-lockfile",
+  "installCommand": "corepack enable && cd console && pnpm install --no-frozen-lockfile",
   "cleanUrls": false,
   "routes": [
     { "handle": "filesystem" },
