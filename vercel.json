@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd console && npm run build",
+  "buildCommand": "cd console && pnpm run build",
   "outputDirectory": "console/dist",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "cleanUrls": false,
