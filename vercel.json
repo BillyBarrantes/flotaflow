@@ -1,7 +1,7 @@
 {
-  "buildCommand": "cd console && pnpm run build",
+  "buildCommand": "pnpm --filter @flotaflow/console run build",
   "outputDirectory": "console/dist",
-  "installCommand": "corepack enable && cd console && pnpm install --no-frozen-lockfile",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "cleanUrls": false,
   "routes": [
     { "handle": "filesystem" },
