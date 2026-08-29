@@ -1,5 +1,5 @@
 {
-  "buildCommand": "corepack pnpm --filter @flotaflow/console run build",
+  "buildCommand": "corepack pnpm --filter @fleetbase/console run build",
   "outputDirectory": "console/dist",
   "installCommand": "corepack enable && corepack prepare pnpm@9.15.4 --activate && corepack pnpm install --no-frozen-lockfile",
   "cleanUrls": false,
