@@ -1,5 +1,8 @@
 {
   "name": "flotaflow-monorepo",
   "private": true,
-  "packageManager": "pnpm@8.15.9"
+  "packageManager": "pnpm@8.15.9",
+  "engines": {
+    "node": "20.x"
+  }
 }
