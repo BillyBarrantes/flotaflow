@@ -151,8 +151,8 @@
         "tracked-built-ins": "^3.3.0",
         "webpack": "^5.98.0"
     },
-    ""engines": {
-         "node": "20.x"
+    "engines": {
+        "node": "20.x"
     },
     "ember": {
         "edition": "octane"
@@ -171,6 +171,5 @@
                 }
             }
         ]
-    },
-    "packageManager": "pnpm@9.15.4"
+    }
 }
